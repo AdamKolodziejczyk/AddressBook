@@ -1,20 +1,26 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Components/Header/Header'
+import HomePage from './Components/HomePage/HomePage';
+import AddressBook from './Components/AddressBook/AddressBook.js';
 import Footer from './Components/Footer/Footer'
 
-function App() {
+const App = () => {
   return (
-   <div>
-    <div className="App">
+     <div className="app">
+       <div>
+     <Router>
      <Header />
-      <p>fds</p>
-    
-    </div>
-    <Footer />
-   </div>
-  
+       <Route exact path='/' component={HomePage} />
+       <Route path='/ksiazkaAdresowa' component={AddressBook} />
+     </Router>
+       </div>
+       <Footer /> 
+     </div>
   );
 }
 
 export default App;
+
+

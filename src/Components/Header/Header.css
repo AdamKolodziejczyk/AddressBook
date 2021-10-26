@@ -1,0 +1,29 @@
+.header {
+    position: sticky;
+    height: 10vh;
+    width: 99.2vw;
+}
+
+.namePageDiv {
+    position: absolute;
+    left: 7vw;
+    top: 1.5vh;
+    width: 4vw;
+    color: rgb(4, 138, 138);
+}
+
+.homePageDiv {
+    position: absolute;
+    left: 75vw;
+    top: 1.5vh;
+    width: 6vw;
+    color: rgb(4, 138, 138);
+}
+
+.addressBookDiv {
+    position: absolute;
+    left: 85vw;
+    top: 1.5vh;
+    width: 7vw;
+    color: rgb(4, 138, 138);
+}

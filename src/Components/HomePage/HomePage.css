@@ -1,0 +1,23 @@
+
+.homePageText {
+    color: rgb(4, 138, 138);
+    position: absolute;
+    width: 25vw;
+    height: 15vh;
+    top: 20vh;
+    left: 5vw;
+    line-height: 1.4vw;
+    font-size: 1vw;
+
+  }
+  
+  b {
+    font-size: 1.5vw;
+  }
+  
+  img {
+    position: absolute;
+    left: 40vw;
+    height: 50vh;
+    width: 45vw;
+  }

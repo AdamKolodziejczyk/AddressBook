@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
-      <p>fds</p>
+      <p className="footerText">©2021 - Adam Kołodziejczyk</p>
     </div>
   );
 }

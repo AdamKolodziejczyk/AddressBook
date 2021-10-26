@@ -1,8 +1,4 @@
-App {
-  height: 100vh;
+.app {
+  height: 85vh;
 }
 
-.App {
-  height: 100vh;
-  background-color: yellow;
-}

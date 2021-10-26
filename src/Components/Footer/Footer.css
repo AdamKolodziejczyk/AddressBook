@@ -1,5 +1,13 @@
 .footer {
-    background-color: black;
-    margin-top: auto;
-    height: 5vh;
+    position: sticky;
+    height: 10vh;
+    text-align: right;
+}
+
+.footerText {
+    color: rgb(4, 138, 138);
+    font-size: 1vw;
+    padding-top: 4vh;
+    padding-right: 5vw;
+  
 }
