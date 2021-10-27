@@ -13,11 +13,16 @@
   
   b {
     font-size: 1.5vw;
+
   }
   
-  img {
+  .homePageImg {
     position: absolute;
-    left: 40vw;
-    height: 50vh;
-    width: 45vw;
+    left: 45vw;
+    height: 62vh;
+    width: 50vw;
   }
+
+.homePageBox {    
+  height: 78vh;
+}

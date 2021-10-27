@@ -5,11 +5,13 @@ import preview from './preview.jpg'
 const HomePage = () => {
  return (
     <div className="homePage">
+      <div className="homePageBox">
         <p className="homePageText">
             <b>Darmowy i łatwy sposób na zbieranie adresów.</b><br/>
                 Najlepsze narzędzie, które pomoże Ci zebrać adresy<br/> od przyjaciół, rodziny do zaproszeń ślubnych, zaproszeń na przyjęcia lub innych tradycyjnych wpisów.
         </p>
-       <img src={preview} alt="" />
+       <img className="homePageImg" src={preview} alt="" />
+       </div>
     </div>
   );
 }

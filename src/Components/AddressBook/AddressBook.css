@@ -1,0 +1,29 @@
+.adressBookTextBox1 {
+    line-height: 1.8vw;
+    position: relative;
+    left: 6vw;
+}
+
+.addressBook {
+   background-color:  rgb(4, 138, 138);
+   height: 78vh;
+   width: 40vw;
+   position: relative;
+   left: 15vw;
+   border-radius: 20%;
+}
+
+.addressBookImg {
+    position: absolute;
+    top: 18vh;
+    left: 46vw;
+    height: 40vh;
+    width: 30vw;
+}
+
+.addressBookButton {
+    background-color: rgb(42, 214, 214);
+    position: relative;
+    left: 6vw;
+    top: 1vh;
+}

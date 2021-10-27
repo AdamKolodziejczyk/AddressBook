@@ -4,7 +4,7 @@
     width: 99.2vw;
 }
 
-.namePageDiv {
+.headeDiv1 {
     position: absolute;
     left: 7vw;
     top: 1.5vh;
@@ -12,7 +12,7 @@
     color: rgb(4, 138, 138);
 }
 
-.homePageDiv {
+.headeDiv2 {
     position: absolute;
     left: 75vw;
     top: 1.5vh;
@@ -20,7 +20,7 @@
     color: rgb(4, 138, 138);
 }
 
-.addressBookDiv {
+.headeDiv3 {
     position: absolute;
     left: 85vw;
     top: 1.5vh;
