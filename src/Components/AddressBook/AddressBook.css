@@ -1,12 +1,21 @@
-.adressBookTextBox1 {
+.addressBookTextBox1 {
     line-height: 1.8vw;
     position: relative;
-    left: 6vw;
+    left: -32vw;
+    top: 3vh;
+    text-align: right;
+}
+
+.addressBookTextBox2 {
+    position:absolute;
+    line-height: 1.8vw;
+    left: 10vw;
+    top: 3vh;
 }
 
 .addressBook {
    background-color:  rgb(4, 138, 138);
-   height: 78vh;
+   height: 76.4vh;
    width: 40vw;
    position: relative;
    left: 15vw;
@@ -21,9 +30,37 @@
     width: 30vw;
 }
 
+.addressBookCounter {
+    color: rgb(4, 138, 138);
+    position: absolute;
+    top: 67vh;
+    left: 45vw;
+    height: 6.5vh;
+    width: 18vw;
+    text-align: center;
+    line-height: 1.5vw;
+}
+
 .addressBookButton {
-    background-color: rgb(42, 214, 214);
-    position: relative;
-    left: 6vw;
-    top: 1vh;
+  position: relative;
+  left: 6vw;
+  top: 0.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addressBookB {
+    line-height: 1.5vw;
 }

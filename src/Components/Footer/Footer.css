@@ -1,13 +1,11 @@
 .footer {
     position: sticky;
     height: 10vh;
-    text-align: right;
+    text-align: center;
 }
 
 .footerText {
     color: rgb(4, 138, 138);
     font-size: 1vw;
     padding-top: 4vh;
-    padding-right: 5vw;
-  
 }

@@ -12,7 +12,7 @@ const Header = () => {
        <Link to={`/`} >
          <div className="headeDiv2">Strona glowna</div>
          </Link>
-         <Link to={`/ksiazkaAdresowa`} >
+         <Link to={`/addressbook`} >
         <div className="headeDiv3">Książka adresowa</div>
         </Link>
     </div>
