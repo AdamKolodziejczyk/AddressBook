@@ -15,17 +15,17 @@
 
 .addressBook {
    background-color:  rgb(4, 138, 138);
-   height: 76.4vh;
-   width: 40vw;
+   height: 78.1vh;
+   width: 65vw;
    position: relative;
-   left: 15vw;
+   left: 5vw;
    border-radius: 20%;
 }
 
 .addressBookImg {
     position: absolute;
     top: 18vh;
-    left: 46vw;
+    left: 65vw;
     height: 40vh;
     width: 30vw;
 }
@@ -34,7 +34,7 @@
     color: rgb(4, 138, 138);
     position: absolute;
     top: 67vh;
-    left: 45vw;
+    left: 70vw;
     height: 6.5vh;
     width: 18vw;
     text-align: center;
@@ -63,4 +63,26 @@
 
 .addressBookB {
     line-height: 1.5vw;
+}
+
+.cards {
+  position: absolute;
+  top: 8vh;
+  left: 4vw;
+ width: 60vw;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 40vw) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 40vw) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
