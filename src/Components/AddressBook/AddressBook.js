@@ -1,67 +1,74 @@
-import React, { useEffect, useState } from "react";
-import { Card } from "react-bootstrap";
+import React, { useState } from "react";
 import axios from 'axios';
-import mailbookpostman from './mailbook-postman.svg'
+import mailbookpostman from './mailbook-postman.svg';
 import './AddressBook.css';
 
   const AddressBook = () => {
-  const container = [];
+    const [number, setNumber] = useState(0);
+    const [data, setData] = useState([]);
+    const limit = number === 5;
+    const baseURL = "https://random-data-api.com/api/address/random_address";
 
-  const [data, setData] = useState('');
-  
-  const [visible, setVisible] = useState(0) ;
+    const getData = () => {
+      axios.get(baseURL).then(res => {
+        const newData = data;
+        newData.push(res.data)
+        setData([...newData])
+      })
+    };
 
-  const baseURL = "https://random-data-api.com/api/address/random_address";
+    const loadMore = () => {
+      setNumber(number + 1);
+    };
 
-  const limit = visible ===  5;
+    const buttonclick = () => {
+      getData();
+      loadMore();
+    };
 
-  const loadMore = () => {
-    setVisible(visible + 1);
-  };
-
-  const getData = () => {
-    axios.get(baseURL).then(res => setData(res.data)
-    )
-  }
-
-  useEffect(() => {
-    getData();
-  }, []);
-
-  container.push(data)
-
-  const renderCard = (city) => {
     return (
-      <Card style={{ width: "18rem" }}>
-        <Card.Body>
-          <Card.Text>
-            <ul>
-              <li>{city.city}</li>
-              <li>{city.id}</li>
-            </ul>
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <div className="addressBook">
+          <div className="cards">
+            {data.map(element => (
+             <div className="containerDiv">
+              <div className="containerScroll">
+               <ol>
+                <li>City: {element.city}                          <br/> </li>
+                <li>City prefix: {element.city_prefix}            <br/></li>
+                <li>City suffix: {element.city_suffix}            <br/></li>
+                <li>Community: {element.community}                <br/></li>
+                <li>County: {element.country}                     <br/></li>
+                <li>Street address: {element.street_address}      <br/></li>
+                <li>Secondary address: {element.secondary_address}<br/></li>
+                <li>Full address: {element.full_address}          <br/></li>
+                <li>Country code: {element.country_code}          <br/></li>
+                <li>State: {element.state}                        <br/></li>
+                <li>State abbr: {element.state_abbr}              <br/></li>
+                <li>Street name: {element.street_name}            <br/></li>
+                <li>Street suffix: {element.street_suffix}        <br/></li>
+                <li>Time zone: {element.time_zone}                <br/></li>
+                <li>Zip: {element.zip}                            <br/></li>
+                <li>Zip code: {element.zip_code}                  <br/></li>
+                <li>Building number:  {element.building_number}   <br/></li>
+                <li>Id: {element.id}                              <br/></li>
+                <li>Mail box: {element.mail_box}                  <br/></li>
+                <li>Postcode: {element.postcode}                  <br/></li>
+                <li>Uid: {element.uid}                            <br/></li>
+               </ol>
+              </div>
+             </div>
+            ))}
+          </div>
+         <img className="addressBookImg" src={mailbookpostman} alt="" />
+        <div className="addressBookCounter">
+          <span>
+           Maksymalna ilosc klikniec w przycisk wynosi: 5<br/>
+           <b className="addressBookB">Twoja liczba klikniec: {number + 0}</b>
+           </span>
+          <button className="addressBookButton" disabled={limit} onClick={buttonclick}>Pobierz Dane</button>
+        </div>
+      </div>
     );
   };
-
-  return (
-  <div className="addressBook">
-     <div className="wrapper">
-       <div className="cards">
-        {container.slice(0, visible).map(renderCard)}
-       </div>
-         <img className="addressBookImg" src={mailbookpostman} alt="" />
-     </div>
-     <div className="addressBookCounter">
-      <span>
-        Maksymalna ilosc klikniec w przycisk wynosi: 5<br/>
-        <b className="addressBookB">Twoja ilosc klikniec wynosi: {visible + 0}</b>
-      </span>
-      <button className="addressBookButton" disabled={limit} onClick={loadMore}>Pobierz Dane</button>
-    </div>
-  </div>
-  );
-}
-
+  
 export default AddressBook;

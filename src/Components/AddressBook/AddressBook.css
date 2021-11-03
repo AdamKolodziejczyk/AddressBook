@@ -66,23 +66,30 @@
 }
 
 .cards {
+  color: rgb(4, 138, 138);
+  font-size: 1.1vw;
+  line-height: 2.5vw;
   position: absolute;
-  top: 8vh;
-  left: 4vw;
- width: 60vw;
-  margin: 0 auto;
+  top: 5vh;
+  left: 2.5vw;
+  width: 60vw;
   display: grid;
-  grid-gap: 1rem;
+  grid-gap: 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-@media (min-width: 40vw) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.containerDiv {
+  padding: 1.3vw;
+  background-color: white;
+  width: 29vw;
+  height: 20vh;
+  border-radius: 20%;
 }
 
-@media (min-width: 40vw) {
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.containerScroll {
+  background-color: white;
+  width: 26vw;
+  height: 15vh;
+  overflow: hidden;
+  overflow-y: scroll;
 }
