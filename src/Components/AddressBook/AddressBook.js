@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import mailbookpostman from './mailbook-postman.svg';
+import mailbookpostman from './MailbookPostman.svg';
 import './AddressBook.css';
 
   const AddressBook = () => {
