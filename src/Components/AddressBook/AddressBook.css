@@ -14,18 +14,18 @@
 }
 
 .addressBook {
-   background-color:  rgb(4, 138, 138);
+  background-color:  rgb(4, 138, 138);
    height: 78.1vh;
-   width: 65vw;
+   width: 67.3vw;
    position: relative;
-   left: 5vw;
-   border-radius: 20%;
+   left: 3vw;
+   border-radius: 5%;
 }
 
 .addressBookImg {
     position: absolute;
     top: 18vh;
-    left: 65vw;
+    left: 67vw;
     height: 40vh;
     width: 30vw;
 }
@@ -67,29 +67,31 @@
 
 .cards {
   color: rgb(4, 138, 138);
-  font-size: 1.1vw;
-  line-height: 2.5vw;
+  font-size: 1vw;
+  line-height: 1.5vw;
   position: absolute;
-  top: 5vh;
-  left: 2.5vw;
-  width: 60vw;
+  top: 2.9vh;
+  left: 1.2vw;
+  width: 65vw;
   display: grid;
-  grid-gap: 2.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.4rem;
+  grid-template-columns: repeat(5, 1fr);
+  overflow-x: auto;
 }
 
 .containerDiv {
   padding: 1.3vw;
   background-color: white;
-  width: 29vw;
-  height: 20vh;
+  width: 30vw;
+  height: 72vh;
   border-radius: 20%;
 }
 
 .containerScroll {
+  position: relative;
+  left: 1vw;
+  top: 1vh;
   background-color: white;
-  width: 26vw;
-  height: 15vh;
-  overflow: hidden;
-  overflow-y: scroll;
+  width: 25vw;
+  height: 60vh;
 }
