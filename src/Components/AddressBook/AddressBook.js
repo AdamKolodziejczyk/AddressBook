@@ -7,87 +7,128 @@ import './AddressBook.css';
 const columns = [
   {
     title: "City",
-    name: "city"
+    name: "city",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "City prefix",
-    name: "city_prefix"
+    name: "city_prefix",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "City suffix",
-    name: "city_suffix"
+    name: "city_suffix",
+    isSelect: false,
   },
   {
     title: "Community",
-    name: "community"
+    name: "community",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Country",
-    name: "country"
+    name: "country",
+    isSelect: true,
+    isNumber: false,
   },
   {
     title: "Street address",
-    name: "street_address"
+    name: "street_address",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Secondary address",
-    name: "secondary_address"
+    name: "secondary_address",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Full address",
-    name: "full_address"
+    name: "full_address",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Country code",
-    name: "country_code"
+    name: "country_code",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "State",
-    name: "state"
+    name: "state",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "State abbr",
-    name: "state_abbr"
+    name: "state_abbr",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Street name",
-    name: "street_name"
+    name: "street_name",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Street suffix",
-    name: "street_suffix"
+    name: "street_suffix",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Time zone",
-    name: "time_zone"
+    name: "time_zone",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Zip",
-    name: "zip"
+    name: "zip",
+    isSelect: false,
+    isNumber: true,
   },
   {
     title: "Zip code",
-    name: "zip_code"
+    name: "zip_code",
+    isSelect: false,
+    isNumber: true,
   },
   {
     title: "Building number",
-    name: "building_number"
+    name: "building_number",
+    isSelect: false,
+    isNumber: true,
   },
   {
     title: "Id",
-    name: "id"
+    name: "id",
+    isSelect: false,
+    isNumber: true,
   },
   {
     title: "Mail box",
-    name: "mail_box"
+    name: "mail_box",
+    isSelect: false,
+    isNumber: false,
   },
   {
     title: "Postcode",
-    name: "postcode"
+    name: "postcode",
+    isSelect: false,
+    isNumber: true,
   },
   {
     title: "Uid",
-    name: "uid"
+    name: "uid",
+    isSelect: false,
+    isNumber: false,
   },
 ]
 
@@ -139,10 +180,10 @@ const AddressBook = () => {
         <p className="addressBookB">Twoja liczba klikniec: {number + 0}</p>
         <button className="addressBookButton" disabled={limit} onClick={buttonclick}>Pobierz Dane</button>
       </div>
-      <div className="addressBookModalDiv">
+      <div className="addressBookModalDiv1">
         <p>Kliknij w przycisk by otworzyc okno formularza.</p>
         <button className="openModalButton" onClick={() => setOpenModal(true)}>Otworz</button>
-        {openModal && <Form openModal={openModal} setCloseModal={setOpenModal} columns={columns}/>}
+        {openModal && <Form openModal={openModal} setCloseModal={setOpenModal} columns={columns} />}
       </div>
     </div>
   );

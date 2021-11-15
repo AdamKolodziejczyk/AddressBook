@@ -79,6 +79,11 @@
   height: 60vh;
 }
 
+.addressBookText {
+  position: relative;
+  top: 1.5vh;
+}
+
 .addressBookColumnDiv {
   display: flex;
   line-height: 1.5vh;
@@ -88,7 +93,7 @@
   width: 10vw;
 }
 
-.addressBookModalDiv {
+.addressBookModalDiv1 {
   color: rgb(109, 251, 251);
   text-align: center;
   position: absolute;
@@ -122,5 +127,3 @@
   color: #fff;
   background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
 }
-
-
