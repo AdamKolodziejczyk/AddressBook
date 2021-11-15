@@ -1,11 +1,8 @@
 .footer {
-    position: sticky;
-    height: 10vh;
-    text-align: center;
-}
-
-.footerText {
-    color: rgb(4, 138, 138);
-    font-size: 1vw;
-    padding-top: 4vh;
+  background-color: rgb(34, 59, 59);
+  color: rgb(109, 251, 251);
+  position: sticky;
+  text-align: center;
+  height: 5vh;
+  font-size: 1.1vw;
 }

@@ -1,0 +1,62 @@
+.closeModalButton1 {
+  position: relative;
+  left: 10vw;
+  top: 20vh;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
+}
+
+.closeModalButton2 {
+  position: relative;
+  left: 11vw;
+  top: 20vh;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
+}
+
+.addressBookText {
+  position: relative;
+  top: 1.5vh;
+}
+
+.addressBookModal {
+  position: relative;
+  background-color: rgb(5, 105, 105);
+  color: rgb(109, 251, 251);
+  top: 10vh;
+  left: 35vw;
+  width: 30vw;
+  height: 65vh;
+  border-radius: 15%;
+}
+
+.addressBookModalForm {
+  position: relative;
+  left: 2vw;
+  top: 4vh;
+  display: flex;
+}
+
+.addressBookModalText {
+  width: 5vw;
+}
+
+input {
+  color: white;
+  background-color: black;
+}
+
+.addressBookModalBox {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(37, 43, 46, 0.75);
+}

@@ -1,29 +1,33 @@
 .header {
-    position: sticky;
-    height: 10vh;
-    width: 99.2vw;
+  background-color: rgb(34, 59, 59);
+  position: sticky;
+  height: 10vh;
+  width: 100vw;
 }
 
-.headeDiv1 {
-    position: absolute;
-    left: 7vw;
-    top: 1.5vh;
-    width: 4vw;
-    color: rgb(4, 138, 138);
+.headerDiv1 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 6vw;
+  top: 1.5vh;
+  width: 6vw;
+  font-size: 1.3vw;
 }
 
-.headeDiv2 {
-    position: absolute;
-    left: 75vw;
-    top: 1.5vh;
-    width: 6vw;
-    color: rgb(4, 138, 138);
+.headerDiv2 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 71vw;
+  top: 1.5vh;
+  width: 9vw;
+  font-size: 1.3vw;
 }
 
-.headeDiv3 {
-    position: absolute;
-    left: 85vw;
-    top: 1.5vh;
-    width: 7vw;
-    color: rgb(4, 138, 138);
+.headerDiv3 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 85vw;
+  top: 1.5vh;
+  width: 11vw;
+  font-size: 1.3vw;
 }
