@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(34, 59, 59);
+  position: sticky;
+  height: 10vh;
+  width: 100vw;
+}
+
+.headerDiv1 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 6vw;
+  top: 1.5vh;
+  width: 6vw;
+  font-size: 1.3vw;
+}
+
+.headerDiv2 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 71vw;
+  top: 1.5vh;
+  width: 9vw;
+  font-size: 1.3vw;
+}
+
+.headerDiv3 {
+  position: absolute;
+  color: rgb(109, 251, 251);
+  left: 85vw;
+  top: 1.5vh;
+  width: 11vw;
+  font-size: 1.3vw;
+}

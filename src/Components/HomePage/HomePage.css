@@ -1,0 +1,28 @@
+.homePageText {
+  color: rgb(109, 251, 251);
+  position: absolute;
+  width: 25vw;
+  height: 15vh;
+  top: 40vh;
+  left: 5vw;
+  line-height: 1.4vw;
+  font-size: 1vw;
+}
+
+.homePageBold {
+  font-size: 1.5vw;
+}
+
+.homePagePicture {
+  position: absolute;
+  border-radius: 20%;
+  left: 45vw;
+  top: 18vh;
+  height: 62vh;
+  width: 50vw;
+}
+
+.homePage {
+  background-color: rgb(34, 59, 59);
+  height: 85vh;
+}

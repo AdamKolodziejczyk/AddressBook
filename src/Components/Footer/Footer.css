@@ -1,0 +1,8 @@
+.footer {
+  background-color: rgb(34, 59, 59);
+  color: rgb(109, 251, 251);
+  position: sticky;
+  text-align: center;
+  height: 5vh;
+  font-size: 1.1vw;
+}
