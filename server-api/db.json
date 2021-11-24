@@ -114,29 +114,6 @@
       "mail_box": "PO Box 645",
       "postcode": "16271-3757",
       "uid": "df433c93-ff33-4e35-bf4c-e63e1bef5632"
-    },
-    {
-      "city": "gdfgdf",
-      "city_prefix": "gdfgdf",
-      "city_suffix": "gdfgdf",
-      "community": "gdfgdf",
-      "country": "Niemcy",
-      "street_address": "gdfgdf",
-      "secondary_address": "gdfgdf",
-      "full_address": "gdfgdf",
-      "country_code": "gdfgdf",
-      "state": "gdfgdfg",
-      "state_abbr": "dfgdfgfd",
-      "street_name": "gdfgdf",
-      "street_suffix": "gdf",
-      "time_zone": "gfdggfd",
-      "zip": "4324",
-      "zip_code": "432",
-      "building_number": "342432",
-      "id": "342432",
-      "mail_box": "34543534",
-      "postcode": "43534543",
-      "uid": "435543543"
     }
   ]
 }

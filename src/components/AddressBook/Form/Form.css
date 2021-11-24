@@ -1,0 +1,220 @@
+
+.formModal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(37, 43, 46, 0.75);
+}
+
+.formModalDiv {
+  position: relative;
+  background-color: rgb(5, 105, 105);
+  color: rgb(109, 251, 251);
+  left: 35vw;
+  width: 35vw;
+  height: 100vh;
+}
+
+.formDiv {
+  display: flex;
+}
+
+.formText {
+  position: relative;
+  left: 3vw;
+  width: 12vw;
+  line-height: 1.6vw;
+}
+
+input {
+  width: 10vw;
+  height: 2.5vh;
+  position: relative;
+  top: 0.4vh;
+  color: white;
+  background-color: black;
+}
+
+select {
+  width: 10vw;
+  color: white;
+  background-color: black;
+  position: relative;
+  height: 2.5vh;
+  top: 0.4vh;
+}
+
+.closeModalButton {
+  position: absolute;
+  left: 28vw;
+  top: 3vh;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
+}
+
+.SendModalButton {
+  position: absolute;
+  left: 29vw;
+  top: 91vh;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, #0eabdb 0%, #055358 100%);
+}
+
+.validationText {
+  color: red;
+}
+
+.validationText1 {
+  position: absolute;
+  top: 2.7vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText2 {
+  position: absolute;
+  top: 7.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText3 {
+  position: absolute;
+  top: 12.2vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText4 {
+  position: absolute;
+  top: 17vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText5 {
+  position: absolute;
+  top: 21.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText6 {
+  position: absolute;
+  top: 26vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText7 {
+  position: absolute;
+  top: 31vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText8 {
+  position: absolute;
+  top: 35.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText9 {
+  position: absolute;
+  top: 40vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText10 {
+  position: absolute;
+  top: 45vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText11 {
+  position: absolute;
+  top: 49.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText12 {
+  position: absolute;
+  top: 54.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText13 {
+  position: absolute;
+  top: 59vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText14 {
+  position: absolute;
+  top: 64vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText15 {
+  position: absolute;
+  top: 68vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText16 {
+  position: absolute;
+  top: 73vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText17 {
+  position: absolute;
+  top: 77.5vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText18 {
+  position: absolute;
+  top: 82vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText19 {
+  position: absolute;
+  top: 87vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText20 {
+  position: absolute;
+  top: 92vh;
+  left: 12vw;
+  width: 12vw;
+}
+
+.validationText21 {
+  position: absolute;
+  top: 96.5vh;
+  left: 12vw;
+  width: 12vw;
+}

@@ -142,7 +142,7 @@ const AddressBook = () => {
   const getData = () => {
     axios.get(baseURL).then(res => {
       const newData = data;
-      newData.push(res.data)
+      newData.push(res.data )
       setData([...newData])
     })
   };
